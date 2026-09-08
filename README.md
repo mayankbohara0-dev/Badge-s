@@ -1,22 +1,18 @@
 # Badge-s
 
-`Badge-s` is a small GitHub-generated artifact repository containing badge experiments and lightweight pairing/testing outputs. It is currently a scratch-style repository rather than a packaged application or library.
+`Badge-s` is a small artifact repository containing badge experiments and lightweight pairing/testing outputs. It is intentionally a scratch-style workspace rather than a packaged application or library.
 
 ## Contents
 
 | Path | Purpose |
 | --- | --- |
-| [`badges/`](./badges) | Generated badge notes, including the YOLO badge artifact |
+| [`badges/`](./badges) | Generated badge notes and artifacts |
 | [`pair/`](./pair) | Pair-session output logs |
 | [`testing/`](./testing) | Small generated testing fixtures |
 
-## Current status
-
-The repository does not currently contain a build system, runtime application, package manifest, or automated test suite. The files are useful as generated examples or placeholders and can be extended as the project’s purpose becomes more defined.
-
 ## Working with the repository
 
-Clone it and inspect the generated artifacts with standard Git tools:
+There is currently no runtime, package manifest, build system, or automated test suite. Clone the repository and inspect the artifacts with standard Git tools:
 
 ```bash
 git clone https://github.com/mayankbohara0-dev/Badge-s.git
@@ -24,14 +20,10 @@ cd Badge-s
 find . -maxdepth 3 -type f -not -path './.git/*' -print
 ```
 
-## License
+## Status and license
 
-No license file is currently included. Add a `LICENSE` file if you want to define how others may use or redistribute these artifacts.
+This repository is maintained as an evolving scratch space. No license file is currently included; add one if you want to define how these artifacts may be reused.
 
 ## Author
 
 Maintained by [Mayank Bohara](https://github.com/mayankbohara0-dev).
-
-## References
-
-[1]: https://github.com/mayankbohara0-dev/Badge-s "Badge-s repository"
